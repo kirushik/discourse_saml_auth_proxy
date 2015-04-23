@@ -1,0 +1,14 @@
+upstream saml_auth_proxy {
+  server unix:/var/run/saml_auth_proxy/api1.sock;
+  server unix:/var/run/saml_auth_proxy/api2.sock;
+}
+
+server {
+  listen 80;
+
+  server_name saml-auth-proxy.example.com;
+  location / {
+    proxy_pass http://saml_auth_proxy;
+    proxy_set_header Host $host;
+  }
+}
