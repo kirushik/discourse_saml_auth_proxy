@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.6)
+    activesupport (5.2.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -40,7 +40,7 @@ GEM
       rack (>= 1.2.2)
       rack-contrib
       rack-respond_to
-    grape (1.0.2)
+    grape (1.0.3)
       activesupport
       builder
       mustermann-grape (~> 1.0.0)
@@ -48,7 +48,7 @@ GEM
       rack-accept
       virtus (>= 1.0.0)
     http_parser.rb (0.6.0)
-    i18n (1.0.0)
+    i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     log4r (1.1.10)
@@ -61,7 +61,7 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     public_suffix (3.0.2)
-    rack (2.0.4)
+    rack (2.0.5)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-accept-media-types (0.9)
