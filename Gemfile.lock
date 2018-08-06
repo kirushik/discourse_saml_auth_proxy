@@ -40,7 +40,7 @@ GEM
       rack (>= 1.2.2)
       rack-contrib
       rack-respond_to
-    grape (1.0.3)
+    grape (1.1.0)
       activesupport
       builder
       mustermann-grape (~> 1.0.0)
