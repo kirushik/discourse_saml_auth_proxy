@@ -58,7 +58,7 @@ GEM
     mustermann (1.0.2)
     mustermann-grape (1.0.0)
       mustermann (~> 1.0.0)
-    nokogiri (1.8.4)
+    nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     public_suffix (3.0.2)
     rack (1.6.10)
