@@ -54,7 +54,7 @@ GEM
       rack (>= 1.2.2)
       rack-contrib
       rack-respond_to
-    grape (1.5.0)
+    grape (1.5.1)
       activesupport
       builder
       dry-types (>= 1.1)
@@ -87,9 +87,9 @@ GEM
       nokogiri (>= 1.5.10)
     ruby2_keywords (0.0.2)
     thread_safe (0.3.6)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby
