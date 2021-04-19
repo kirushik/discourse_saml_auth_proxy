@@ -82,7 +82,7 @@ GEM
     rack-respond_to (0.9.8)
       rack-accept-media-types (>= 0.6)
     rexml (3.2.5)
-    ruby-saml (1.12.1)
+    ruby-saml (1.12.2)
       nokogiri (>= 1.10.5)
       rexml
     ruby2_keywords (0.0.4)
